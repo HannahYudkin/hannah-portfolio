@@ -1,26 +1,24 @@
 import "./WorkCardStyles.css";
 
 import React from 'react'
-// import sitecore from "../assets/sitecore-logo.png";
-import sitecore from "../assets/sitecore-featured-image.jpg";
 
 import { NavLink } from "react-router-dom";
 
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
-    <div className="work-container">
-      <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-        <div className="project-card">
-          <img src={sitecore} alt="Sitecore" />
-          <h2 className="project-title">Sitecore: Director of Sales Development(Americas)</h2>
-          <div className="project-details">
-            <p>Directing the front-end sales process for Sitecore in North America. Overseeing both Inbound and Outbound sales development. Helped brands create meaningful experiences that result in customer loyalty & advocacy.</p>
-            <div className="project-btns">
-              <NavLink to="https://www.sitecore.com/" className="btn">Website</NavLink>
-              <NavLink to="/contact" className="btn">Questions?</NavLink>
-            </div>
-          </div>
+    <div className="project-card">
+      <div className="project-upper">
+        <img src={props.imgsrc} alt={props.imgsrc} />
+        <h2 className="project-title">{props.title}</h2>
+        <div className="project-details">
+          <p>{props.text}</p>
+        </div>
+      </div>
+
+      <div className="project-lower">
+        <div className="project-btns">
+          <NavLink to={props.link1} className="btn">Website</NavLink>
+          <NavLink to={props.link2} className="btn">Questions?</NavLink>
         </div>
       </div>
     </div>

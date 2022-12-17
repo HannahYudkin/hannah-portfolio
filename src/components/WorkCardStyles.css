@@ -15,6 +15,9 @@
 .project-card {
   background: #1a1919;
   padding: 1.2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .project-card img {
@@ -40,13 +43,24 @@
 
 .project-btns .btn {
   padding: .5rem 1rem;
-
 }
 
-@media screen and (max-width: 740px) {
+.project-lower {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
   .project-container {
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
