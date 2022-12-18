@@ -12,7 +12,7 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who am I?</h1>
         <p>I help brands create meaningful experiences that result in customer loyalty & advocacy. I direct the front-end sales process for Sitecore in North America, overseeing both Inbound and Outbound sales development. </p>
-        <Link tp="/contact" className="btn">Contact</Link>
+        <Link to="/contact" className="btn">Contact</Link>
       </div>
       <div className="right">
         <div className="img-container">
