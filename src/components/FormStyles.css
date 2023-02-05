@@ -3,12 +3,25 @@ label {
   margin-bottom: 0.5rem;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   padding: 4rem 1rem;
-  margin: auto;
+  margin: 2rem auto;
   max-width: 600px;
+  text-align: center;
+  background: #1a1919;
+  padding: 1.2rem 1rem;
+
+}
+
+.form a {
+  padding: 1.5rem 0 0 0;
+  font-size: 1.2rem;
+}
+
+.form a:last-child {
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 form input,

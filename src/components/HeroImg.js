@@ -12,8 +12,8 @@ const HeroImg = () => {
         <img className="intro-img" src={IntroImg} alt="meeting" />
       </div>
       <div className="content">
-        <p> Hi, I'm Max Williams.</p>
-        <h1>Director of Sales Development of the Americas at Sitecore</h1>
+        <p> Hi, I'm Hannah Yudkin.</p>
+        <h1>Business Analyst and Marketing Specialist</h1>
         <div>
           <Link to="/projects" className="btn">Projects</Link>
           <Link to="/contact" className="btn btn-light">Contact</Link>
