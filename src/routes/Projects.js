@@ -9,9 +9,9 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="Projects." text="Most recent accomplishments" />
+      <HeroImg2 heading="Work Experience." text="Most recent positions" />
       <Work />
-      <PricingCard />
+      {/* <PricingCard /> */}
       <Footer />
     </div>
   )
