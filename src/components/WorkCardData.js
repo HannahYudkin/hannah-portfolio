@@ -6,6 +6,7 @@ import image5 from "../assets/big-one-logo.png";
 import image6 from "../assets/crane-logo.jpg";
 import image7 from "../assets/UNH-logo.png";
 import image8 from "../assets/minim-logo.png";
+import image9 from "../assets/gradschool.jpg";
 
 
 const ProjectCardData = [
@@ -30,26 +31,11 @@ const ProjectCardData = [
     link1: "https://conwayoffice.com/",
     link2: "/contact"
   },
-
   {
-    imgsrc: image4,
-    title: "Preston Marketing: Field Marketing Specialist",
-    text: "Oversaw new product introductions, promotions, and sampling at high volume Market Basket locations. Participated in 100+ campaigns promoting different products every week. Helped increase local beer and wine sales of specific products at Market Basket by 20-25%.",
-    link1: "https://www.facebook.com/PrestonMarketingConcepts/",
-    link2: "/contact"
-  },
-  {
-    imgsrc: image5,
-    title: "The Big One Ice Cream Stand: Server",
-    text: "Remedied client inquiries/complaints, which subsequently generated a high repeat and referral business. Handled ~$1, 000 in cash transactions daily and assisted training of new hires. Assisted in New Product Introductions / development and promotions, converted first - time customers to returning customers and increased customer return rate through friendly, reliable and accurate service.",
-    link1: "https://www.thebig1icecream.com/",
-    link2: "/contact"
-  },
-  {
-    imgsrc: image6,
-    title: "Crane Restaurant: Server",
-    text: "Remedied client inquiries/complaints, which subsequently generated a high repeat and referral business. Handled ~$1, 000 in cash transactions daily and assisted training of new hires. Assisted in New Product Introductions / development and promotions, converted first - time customers to returning customers and increased customer return rate through friendly, reliable and accurate service.",
-    link1: "https://www.nashuacrane.com/",
+    imgsrc: image7,
+    title: "UNH: Manchester: Computing Technology Consultant/ Teaching Assistant",
+    text: "Aided in instruction and student support for a Mobile Computing course offered twice per semester with 20+ students per class. Managed inventory database for 400+ technology devices. Aided in planning, coordinating, and hosting the Consortium for Computing Sciences - Northeast(CCSCNE) conference, attended by 200 + technology professionals. Created material for courses, lesson planning, research, student projects, tutoring, and homework. Provided desktop support and assisted students, faculty, and staff in the Computing Technology and IT Support Services departments with troubleshooting.",
+    link1: "https://manchester.unh.edu/about/information-technology",
     link2: "/contact"
   },
   {
@@ -60,10 +46,31 @@ const ProjectCardData = [
     link2: "/contact"
   },
   {
-    imgsrc: image7,
-    title: "UNH: Manchester: Computing Technology Consultant/ Teaching Assistant",
-    text: "Aided in instruction and student support for a Mobile Computing course offered twice per semester with 20+ students per class. Managed inventory database for 400+ technology devices. Aided in planning, coordinating, and hosting the Consortium for Computing Sciences - Northeast(CCSCNE) conference, attended by 200 + technology professionals. Created material for courses, lesson planning, research, student projects, tutoring, and homework. Provided desktop support and assisted students, faculty, and staff in the Computing Technology and IT Support Services departments with troubleshooting.",
-    link1: "https://manchester.unh.edu/about/information-technology",
+    imgsrc: image5,
+    title: "The Big One Ice Cream Stand: Server",
+    text: "Remedied client inquiries/complaints, which subsequently generated a high repeat and referral business. Handled ~$1, 000 in cash transactions daily and assisted training of new hires. Assisted in New Product Introductions / development and promotions, converted first - time customers to returning customers and increased customer return rate through friendly, reliable and accurate service.",
+    link1: "https://www.thebig1icecream.com/",
+    link2: "/contact"
+  },
+  {
+    imgsrc: image9,
+    title: "UNH: Manchester Graduate School: Office Assistant",
+    text: "Coordinated administrative support and office management functions  at a university branch with 1,000 students and 300 graduate students. Researched local companies looking to hire MBA graduates or with tuition reimbursement programs. Generated reports, spreadsheets, and emails using Word and Excel. Helped update/organize electronic files and databases using Box, an on-line content management, collaboration, and file sharing system.",
+    link1: "https://gradschool.unh.edu/",
+    link2: "/contact"
+  },
+  {
+    imgsrc: image6,
+    title: "Crane Restaurant: Server",
+    text: "Remedied client inquiries/complaints, which subsequently generated a high repeat and referral business. Handled ~$1, 000 in cash transactions daily and assisted training of new hires. Assisted in New Product Introductions / development and promotions, converted first - time customers to returning customers and increased customer return rate through friendly, reliable and accurate service.",
+    link1: "https://www.nashuacrane.com/",
+    link2: "/contact"
+  },
+  {
+    imgsrc: image4,
+    title: "Preston Marketing: Field Marketing Specialist",
+    text: "Oversaw new product introductions, promotions, and sampling at high volume Market Basket locations. Participated in 100+ campaigns promoting different products every week. Helped increase local beer and wine sales of specific products at Market Basket by 20-25%.",
+    link1: "https://www.facebook.com/PrestonMarketingConcepts/",
     link2: "/contact"
   },
 ]
