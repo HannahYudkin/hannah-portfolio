@@ -7,7 +7,7 @@
 
 .hero-img::before {
   content: "";
-  background: url("../assets/city.jpg");
+  background: url("../assets/womanshopping.jpg");
   /* background: url("https: //images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
   height: 100%;
   width: 100%;
@@ -26,6 +26,7 @@
 .hero-img p {
   font-size: 1.4rem;
   text-align: center;
+  width: 75%;
 }
 
 .heading {
