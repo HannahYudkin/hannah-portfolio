@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hannah-portfolio/precache-manifest.c434e53d35b8f2e666e33bfb7cb9f8ab.js"
+  "hannahyudkin.com/precache-manifest.913ddca9c01f1bfb9c5240608411c7fb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hannah-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("hannahyudkin.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
