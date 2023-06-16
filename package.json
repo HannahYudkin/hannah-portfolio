@@ -1,6 +1,6 @@
 {
   "name": "hannah-portfolio",
-  "homepage": "http://{HannahYudkin}.github.io/{hannah-portfolio}",
+  "homepage": "http://HannahYudkin.github.io/hannah-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
