@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7BHannahYudkin%7D.github.io/%7Bhannah-portfolio%7D/precache-manifest.6b82c66a3f5965d918291ac3062ca5ac.js"
+  "/hannah-portfolio/precache-manifest.c434e53d35b8f2e666e33bfb7cb9f8ab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7BHannahYudkin%7D.github.io/%7Bhannah-portfolio%7D/index.html", {
+workbox.routing.registerNavigationRoute("/hannah-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
