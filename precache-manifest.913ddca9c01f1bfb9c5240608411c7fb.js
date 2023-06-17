@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "hannahyudkin.com/static/media/womanshopping.c19201a3.jpg"
   },
   {
-    "revision": "56ad177b79cc603f36834da015925e52",
+    "revision": "e4b4227b2f4b6cf209b88645dcda2209",
     "url": "hannahyudkin.com/index.html"
   }
 ];

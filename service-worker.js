@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "hannahyudkin.com/precache-manifest.9559bc4dc35005acc80c36a1f7b45601.js"
+  "hannahyudkin.com/precache-manifest.913ddca9c01f1bfb9c5240608411c7fb.js"
 );
 
 workbox.clientsClaim();
