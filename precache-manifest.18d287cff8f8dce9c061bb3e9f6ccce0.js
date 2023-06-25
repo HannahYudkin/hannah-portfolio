@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "./static/media/womanshopping.c19201a3.jpg"
   },
   {
-    "revision": "c5771e5258d528d4357e9369076eacb6",
+    "revision": "a090571ed016887f400df33ce32da1d2",
     "url": "./index.html"
   }
 ];
