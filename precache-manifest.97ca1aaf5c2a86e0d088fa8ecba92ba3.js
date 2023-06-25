@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8aebdbeb6c8f0b0301e5",
+    "revision": "1fdcb9c9c2a9a57a26f0",
     "url": "./static/css/main.57540b6a.chunk.css"
   },
   {
-    "revision": "8aebdbeb6c8f0b0301e5",
-    "url": "./static/js/main.2147cb11.chunk.js"
+    "revision": "1fdcb9c9c2a9a57a26f0",
+    "url": "./static/js/main.77a12128.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "./static/media/womanshopping.c19201a3.jpg"
   },
   {
-    "revision": "24755f9c965203cab3610ba4736be25f",
+    "revision": "c5771e5258d528d4357e9369076eacb6",
     "url": "./index.html"
   }
 ];
